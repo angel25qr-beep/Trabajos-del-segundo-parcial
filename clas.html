@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clas</title>
+</head>
+<body>
+    <p id="prueba"></p>
+
+    <p id="ejemplo"></p>
+
+    <p id="tarea"></p>
+
+    <p id="ejemplo2"></p>
+
+    <script>
+
+        let elemento = document.getElementById("prueba");
+        elemento.innerHTML = "Aprendiendo modos de JavaScript";
+
+        var prueba = document.getElementById("ejemplo");
+        prueba.innerHTML = "Soy flojo ya que no hago nada";
+
+        document.querySelector("#tarea").style.backgroundColor = "red";
+        document.getElementById("tarea").innerHTML = "Este es el párrafo tarea";
+
+        const elementoTarea = document.querySelector("#ejemplo2");
+        elementoTarea.innerHTML = "Este es el cuarto párrafo";
+        elementoTarea.style.backgroundColor = "red";
+
+    </script>
+
+<br><br>
+<a href="index.html" class="btn btn-primary">
+    Regresar al index
+</a>
+
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operaciones </title>
+</head>
+<body>
+
+    <script>
+   
+        let N1 = Number(prompt("Introduce el primer número para la suma"));
+        let N2 = Number(prompt("Introduce el segundo número para la suma"));
+        let suma = N1 + N2;
+        document.write("La suma es: " + suma + "<br>");
+
+     
+        N1 = Number(prompt("Introduce el primer número para la resta"));
+        N2 = Number(prompt("Introduce el segundo número para la resta"));
+        let resta = N1 - N2;
+        document.write("La resta es: " + resta + "<br>");
+
+     
+        N1 = Number(prompt("Introduce el primer número para la multiplicación"));
+        N2 = Number(prompt("Introduce el segundo número para la multiplicación"));
+        let multiplicacion = N1 * N2;
+        document.write("La multiplicación es: " + multiplicacion + "<br>");
+
+       
+        N1 = Number(prompt("Introduce el primer número para la división"));
+        N2 = Number(prompt("Introduce el segundo número para la división"));
+
+        if (N2 !== 0) {
+            let division = N1 / N2;
+            document.write("La división es: " + division);
+        } else {
+            document.write("No se puede dividir entre cero.");
+        }
+    </script>
+
+<br><br>
+<a href="index.html" class="btn btn-primary">
+    Regresar al index
+</a>
+</body>
+</html>

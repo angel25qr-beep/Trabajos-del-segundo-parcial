@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Promedio</title>
+</head>
+<body>
+
+<script>
+
+    let C1 = Number(prompt("Introduce la primera calificacion"));
+    let C2 = Number(prompt("Introduce la segunda calificacion"));
+    let C3 = Number(prompt("Introduce la tercera calificacion"));
+
+    let promedio = (C1 + C2 + C3) / 3;
+
+    document.write("Tu promedio es: " + promedio + "<br>");
+
+    if (promedio >= 6) {
+        document.write("Felicidades, pasaste.");
+    } else {
+        document.write("No pasaste, esfuerzate mas.");
+    }
+
+</script>
+
+<br><br>
+<a href="index.html" class="btn btn-primary">
+    Regresar al index
+</a>
+
+</body>
+</html>

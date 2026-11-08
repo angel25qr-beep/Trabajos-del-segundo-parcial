@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Signo Zodiacal</title>
+</head>
+<body>
+
+<script>
+
+    let dia = Number(prompt("Introduce tu dia de nacimiento"));
+    let mes = Number(prompt("Introduce tu mes de nacimiento (1-12)"));
+    let signo = "";
+
+    if (mes == 1) {
+        if (dia <= 19)
+            signo = "Capricornio";
+        else
+            signo = "Acuario";
+    }
+    else if (mes == 2) {
+        if (dia <= 18)
+            signo = "Acuario";
+        else
+            signo = "Piscis";
+    }
+    else if (mes == 3) {
+        if (dia <= 20)
+            signo = "Piscis";
+        else
+            signo = "Aries";
+    }
+    else if (mes == 4) {
+        if (dia <= 19)
+            signo = "Aries";
+        else
+            signo = "Tauro";
+    }
+    else if (mes == 5) {
+        if (dia <= 20)
+            signo = "Tauro";
+        else
+            signo = "Geminis";
+    }
+    else if (mes == 6) {
+        if (dia <= 20)
+            signo = "Geminis";
+        else
+            signo = "Cancer";
+    }
+    else if (mes == 7) {
+        if (dia <= 22)
+            signo = "Cancer";
+        else
+            signo = "Leo";
+    }
+    else if (mes == 8) {
+        if (dia <= 22)
+            signo = "Leo";
+        else
+            signo = "Virgo";
+    }
+    else if (mes == 9) {
+        if (dia <= 22)
+            signo = "Virgo";
+        else
+            signo = "Libra";
+    }
+    else if (mes == 10) {
+        if (dia <= 22)
+            signo = "Libra";
+        else
+            signo = "Escorpio";
+    }
+    else if (mes == 11) {
+        if (dia <= 21)
+            signo = "Escorpio";
+        else
+            signo = "Sagitario";
+    }
+    else if (mes == 12) {
+        if (dia <= 21)
+            signo = "Sagitario";
+        else
+            signo = "Capricornio";
+    }
+    else {
+        signo = "Fecha no valida";
+    }
+
+    document.write("Tu signo zodiacal es: " + signo);
+
+</script>
+
+
+<br><br>
+<a href="index.html" class="btn btn-primary">
+    Regresar al index
+</a>
+
+</body>
+</html>
